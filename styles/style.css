@@ -27,12 +27,10 @@
 .logo {
   width: 196px;
   height: 60px;
-  position: relative;
 }
 
 .nav__links {
-  /* Reset default list styles here */
-  margin-top: 8px;
+  margin: 8px 0px 0px 0px;
   display: flex;
   column-gap: 20px;
   padding: 0;
@@ -54,7 +52,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  padding-top: 150px;
+  margin-top: 150px;
   margin-bottom: 0;
 }
 
@@ -62,8 +60,8 @@
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
-  padding-top: 32px;
-  margin-top: 0;
+  margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -106,6 +104,7 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
 .events__content {
@@ -184,7 +183,6 @@
 
 .events__image {
   max-width: 100%;
-  position: static;
 }
 
 .person {
@@ -344,9 +342,7 @@
 }
 
 .step {
-  flex-wrap: wrap;
-  max-width: 220px;
-  flex-basis: auto;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -398,6 +394,10 @@
   margin: 0 0 32px;
 }
 
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -411,10 +411,9 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 60px 80px;
-  flex-wrap: wrap;
   min-height: 224px;
 }
 
@@ -433,7 +432,6 @@
 .footer__logo {
   height: 21px;
   width: 116px;
-  padding-bottom: 108px;
 }
 
 .footer__list {
@@ -480,4 +478,5 @@
 .footer__copyright {
   font-size: 16px;
   line-height: 20px;
+  margin: 108px 0px 0px 0px;
 }
